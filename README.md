@@ -1,6 +1,11 @@
-# InitialBGithubIo
+# Angular Test App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+and modified for educational purposes.
+
+Angular Test App is a single-page Angular web app. The contents of the /docs/ folder are built by Github Pages and deployed at `https://initial-b.github.io/browser/`
+
+
 
 ## Development server
 
@@ -10,9 +15,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build Github Pages
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build --output-path docs --base-href /Initial-B/` to build the project. The build artifacts (index.html, .js files) will be stored in the `/docs/` directory.
+
 
 ## Running unit tests
 
