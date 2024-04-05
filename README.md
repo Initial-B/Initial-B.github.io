@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 and modified for educational purposes.
 
-Angular Test App is a single-page Angular web app. The contents of the /docs/ folder are built by Github Pages and deployed at `https://initial-b.github.io/browser/`
+Angular Test App is a single-page Angular web app. The contents of the /docs/ folder are built by Github Pages and deployed at `https://initial-b.github.io/`
 
 
 
