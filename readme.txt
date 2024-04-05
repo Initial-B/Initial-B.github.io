@@ -1,2 +1,0 @@
-- view page at https://initial-b.github.io
-- 
