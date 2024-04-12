@@ -18,6 +18,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build Github Pages
 
 Run `ng build --output-path docs --base-href /Initial-B/` to build the project. The build artifacts (index.html, .js files) will be stored in the `/docs/` directory.
+    - /docs/index.html must be edited with `<base href="./">` after build
 
 
 ## Running unit tests
