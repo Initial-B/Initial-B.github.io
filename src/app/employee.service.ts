@@ -8,11 +8,12 @@ import { Employee } from './employee';
 })
 export class EmployeeService {
 
-  //private baseURL = "http://192.168.1.229:8080/api/v1/employees";
-  private baseURL = "http://localhost:8080/api/v1/employees"
+  private baseURL = "http://100.36.116.164:6266/api/v1/employees";
+  //private baseURL = "http://localhost:8080/api/v1/employees"
   constructor(private httpClient: HttpClient) { }
 
   getEmployeesList(): Observable<Employee[]>{
+    console.log("EmployeeService.getEmployeesList entry point");
     return this.httpClient.get<Employee[]>(`${this.baseURL}`);
   }
 /*

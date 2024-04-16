@@ -24,6 +24,7 @@ export class EmployeeListComponent {
       //performs asynchronous call to empl service, set employees property when data received
       this.employeeService.getEmployeesList().subscribe(data => {
         this.employees = data;
+        console.log("getEmployees response: " + data);
       } );
     }
 
