@@ -8,7 +8,8 @@ import { Employee } from './employee';
 })
 export class EmployeeService {
 
-  private baseURL = "http://100.36.116.164:6266/api/v1/employees";
+  //private baseURL = "http://100.36.116.164:6266/api/v1/employees";
+  private baseURL = "https://initial-b.work.gd:80/api/v1/employees";
   static header_node = {
     headers: new HttpHeaders(
         { 'Accept': 'application/json' ,
