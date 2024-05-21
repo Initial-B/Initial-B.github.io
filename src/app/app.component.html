@@ -9,11 +9,23 @@
   </ul>
 </nav>
 <h1 class="text-center">{{title}}</h1>
-<div class="text-center">Frontend: Angular, Bootstrap (HTML, CSS, Javascript, Typescript)<br/>
-  <li>Deployed on Github pages</li>
-  Backend: Spring Boot (Java, embedded Tomcat server), MySQL database<br/>
-  <li>Deployed on my desktop at home</li>
+<div class="container" style="margin-left: 100px;margin-top:25px">
+  <div class="text-left" style="float:left;width:500px">
+    <h3>About</h3>
+    Frontend: Angular, Bootstrap (HTML, CSS, Javascript, Typescript)<br/>   
+    <li>Deployed on Github pages</li>
+    Backend: Spring Boot (Java, embedded Tomcat server), MySQL database<br/>
+    <li>Deployed on my desktop at home</li>
+    <li>SSL certificate provided by LetsEncrypt</li>
+    <li>backend domain provided by FreeDomain.one</li>
+  </div>
+  <div class="text-left" style="float:left;width:350;height:200px;overflow-y:scroll">
+    <h3>News</h3>
+    <li>2024-05-20: used win-acme to request LetsEncrypt SSL cert, added to backend</li>
+    <li>2024-05-18: reserved domain initial-b.work.gd for backend REST API</li>
+  </div>
 </div>
+<div style="clear:both;margin-bottom: 50px;"></div>
 <div class="container">
   <router-outlet />
 </div>
