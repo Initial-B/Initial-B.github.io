@@ -10,6 +10,7 @@ import { CreateEmployeeComponent } from './create-employee/create-employee.compo
 import { UpdateEmployeeComponent } from './update-employee/update-employee.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 import { TeamsComponent } from './teams/teams.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TeamsComponent } from './teams/teams.component';
     CreateEmployeeComponent,
     UpdateEmployeeComponent,
     EmployeeDetailsComponent,
-    TeamsComponent
+    TeamsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
